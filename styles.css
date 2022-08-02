@@ -1,0 +1,85 @@
+body {
+    background-color:#121212;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+#title {
+    text-align: center;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+#rock {
+    background-color: transparent;
+    border: 2px solid #3A3B3C;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 80px;
+    color: #FF65DD;
+    font-family: 'Audiowide', cursive;
+}
+
+#rock:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    filter: brightness(120%);
+}
+
+#rock:focus {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    filter: brightness(150%);
+}
+
+#paper {
+    background-color: transparent;
+    border: 2px solid #3A3B3C;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 80px;
+    color: #FFF96D;
+    font-family: 'Audiowide', cursive;
+}
+
+#paper:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    filter: brightness(120%);
+}
+
+#paper:focus {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    filter: brightness(150%);
+}
+
+#scissors {
+    background-color: transparent;
+    border: 2px solid #3A3B3C;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 80px;
+    color: #3491FF;
+    font-family: 'Audiowide', cursive;
+}
+
+#scissors:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    filter: brightness(120%);
+}
+
+#scissors:focus {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    filter: brightness(150%);
+}
